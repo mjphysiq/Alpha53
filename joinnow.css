@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    padding: 0px;
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-nav-center {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 100%;
+    background-color: black;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+    
+.top-nav-center li {
+    list-style-type: none;
+    padding: 25px 16px;
+    
+}
+.topnav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 11px;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    transition: color .8s ease-in-out, box-shadow .9s ease-in-out;
+    
+}
+
+.topnav a:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    opacity: 0.6;
+    border: white 1px solid;
+    box-shadow: inset 200px 0 0 0 #ffffff;
+}
+
+.nav-row2 {
+    background-color: /* #424040*/rgb(255, 255, 255);
+    display: flex;
+    padding-bottom: -200px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 3px;
+    padding-top: 70px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.header-logo{
+    height: 35px;
+}
+
+.nav-rightButton{
+    display: flex;
+}
+
+.aboutus button{
+    background-color: yellow;
+    color: #000;
+    border: 1px solid rgb(206, 197, 197);
+    padding: 8px 14px;
+    font-size: 12px;
+    font-family: "Roboto Condensed", sans-serif;
+    cursor: pointer;
+    transition: color .8s ease-in-out, box-shadow .9s ease-in-out;
+}
+
+.aboutus button:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    opacity: 0.6;
+    border: rgb(255, 255, 255) 1px solid;
+    box-shadow: inset 200px 0 0 0 rgb(10, 68, 122);
+}
+
+.blogs button{
+    background-color: rgb(10, 68, 122);
+    color: white;
+    border: 1px solid rgb(206, 197, 197);
+    padding: 8px 12px;
+    font-size: 12px;
+    font-family: "Roboto Condensed", sans-serif;
+    cursor: pointer;    
+    transition: color .8s ease-in-out, box-shadow .9s ease-in-out;
+}
+
+.blogs button:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    opacity: 0.6;
+    border: white 1px solid;
+    box-shadow: inset 200px 0 0 0 yellow;
+}
+
+
+marquee {
+    font-size: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "poppins", sans-serif;
+}
+
+.container1-vidclip-background {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+    padding: 0;
+}
+
+
+.container1-vidclip-background h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 5px 7px black;
+    padding-top: 10%;
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+    font-size: 30px;
+}
+
+#emailHelp{
+    color: rgba(201, 201, 201, 0.63);
+    font-size: 11.5px;
+    padding-left: 6px;
+}
+
+input {
+    border: 1px solid black;
+    height: 30px;
+    font-size: 1rem;
+}
+table {
+    margin: 10px;
+}
+th {
+    text-align: left;
+}
+td{
+    padding-left: 10px;
+}
+
+#invalidCheck{
+    margin-top: 7px;
+    margin-left: -11px;
+    margin-right: 3px;
+    font-size: 12px;
+}
+h4{
+    font-size: 12px;
+}
+
+.registerhere {
+    font-family: "Roboto Condensed", sans-serif;
+    color:#ffffff
+}
+
+.registerhere button{
+    margin-left: -10px;
+    margin-top: -25px;
+    color: #c4c4c4;
+}
+
+#joinUs-line2{
+    margin-bottom: 300px;
+}
+
+.registerhere button:hover{
+    background-color: rgb(3, 46, 110);
+    color: white;
+    border: none;
+}
+
+.registerhere h1{
+    font-family: "Roboto Condensed", sans-serif;
+    color:#ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 5px 5px black;
+}
+
+.formcenter{
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: #111;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.footerlogo{
+    background-color: #111;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.footertop{
+    padding: 30px 30px 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.underfooterlogo{
+    font-size: 10px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.socmed-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.socmed-icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socmed-icons a i{
+    font-size: 1.3em;
+    opacity: 0.9;
+}
+
+.socmed-icons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.fa-facebook{
+    color: rgb(0, 101, 252);
+}
+.fa-instagram{
+    background-color: red;
+    background-size: 100%;
+    background-image: linear-gradient(45deg, orange, rgb(255, 0, 200));
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.fa-google-plus{
+    color: red;
+}
+
+.footerbottom{
+    text-align: center;
+    background-color: #000;
+    padding: 20px 0px;
+}
+
+.ALPHA53 {
+    opacity: 0.7;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media (max-width: 1536px) {
+    .container1-vidclip-background {
+        height: 90vh;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}
+
+@media (max-width: 1280px) {
+    .container1-vidclip-background {
+        height: 110vh;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .footerbottom{
+    padding: 10px;
+    }
+    .footerbottom p{
+    font-size: 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+
+}
+
+@media (max-width: 768px) {
+    .container1-vidclip-background {
+        height: 90vh;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .footerlogo{
+    height: 45px;
+    }
+
+    .socmed-icons a i{
+    font-size: 1em;
+    opacity: 0.9;
+    }
+
+    .footerbottom{
+    text-align: center;
+    background-color: #000;
+    padding: 10px;
+    }
+    .footerbottom p{
+    font-size: 10px;
+    }
+
+}
+
+@media (max-width: 640px) {
+    marquee {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .footerbottom{
+        text-align: center;
+        background-color: #000;
+        padding: 10px 0px 1px; 
+    }
+}
+
+@media (max-width: 475px) {
+.container1-vidclip-background {
+    height: 125vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+header {
+    max-width: 475px;
+    overflow: hidden;
+}
+
+.nav-row2 {
+   
+    padding-right: 10px;
+    padding-left: 10px;
+}    
+.header-logo{
+    height: 25px;
+}
+marquee {
+    font-size: 9px;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-family: "poppins", sans-serif;
+}
+
+.aboutus button {
+    font-size: 10px;
+    padding: 5px 5px 5px;
+}
+
+.blogs button{
+    font-size: 10px;
+    padding: 5px 5px 5px;
+}
+
+.nav-rightButton button{
+    height: 20px;
+    padding-top: 2px;
+}
+
+
+}

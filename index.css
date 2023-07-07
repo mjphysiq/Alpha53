@@ -1,0 +1,640 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    padding: 0px;
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-nav-center {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 100%;
+    background-color: black;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+    
+.top-nav-center li {
+    list-style-type: none;
+    padding: 25px 16px;
+    
+}
+.topnav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 11px;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    transition: color .8s ease-in-out, box-shadow .9s ease-in-out;
+    
+}
+
+.topnav a:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    opacity: 0.6;
+    border: white 1px solid;
+    box-shadow: inset 200px 0 0 0 #ffffff;
+}
+
+.nav-row2 {
+    background-color: /* #424040*/rgb(255, 255, 255);
+    display: flex;
+    padding-bottom: -200px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 3px;
+    padding-top: 65px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.header-logo{
+    height: 35px;
+}
+
+.nav-rightButton{
+    display: flex;
+}
+
+.aboutus button{
+    background-color: yellow;
+    color: #000;
+    border: 1px solid rgb(206, 197, 197);
+    padding: 8px 14px;
+    font-size: 12px;
+    font-family: "Roboto Condensed", sans-serif;
+    cursor: pointer;
+    transition: color .8s ease-in-out, box-shadow .9s ease-in-out;
+}
+
+.aboutus button:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    opacity: 0.6;
+    border: rgb(255, 255, 255) 1px solid;
+    box-shadow: inset 200px 0 0 0 rgb(10, 68, 122);
+}
+
+.blogs button{
+    background-color: rgb(10, 68, 122);
+    color: white;
+    border: 1px solid rgb(206, 197, 197);
+    padding: 8px 12px;
+    font-size: 12px;
+    font-family: "Roboto Condensed", sans-serif;
+    cursor: pointer;    
+    transition: color .8s ease-in-out, box-shadow .9s ease-in-out;
+}
+
+.blogs button:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    opacity: 0.6;
+    border: white 1px solid;
+    box-shadow: inset 200px 0 0 0 yellow;
+}
+
+
+marquee {
+    font-size: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "poppins", sans-serif;
+}
+
+
+.container1-vidclip-background {
+    position: relative;
+    max-width: 1536px;
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(0,0,0,0.6);
+    
+    margin-bottom: 0px;
+}
+
+
+.background-clip {
+    position: absolute;
+    z-index: -1;
+    /*height: 106vh;
+    width: 100%;*/
+    height: 120vh;
+    width: 100%;
+    margin-top: 0px;
+    
+}
+
+.container1-vidclip-background h1 {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 5px 10px black;
+    padding-top: 15%;
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container2 {
+    padding: 320px 100px 100px;
+    text-align: center;
+    background-color: rgb(0,0,0,0.6);
+    justify-content: center;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.container2 hr{
+    width: 110%;
+    text-align: center;
+    transform: translate(-4%);
+}
+.container2 h2{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-shadow: 5px 6px rgb(12, 12, 12);
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.coach-wendell h3{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-shadow: 5px 6px rgb(12, 12, 12);
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.coach-wendell p{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+
+.container3{
+    background-color: rgba(0, 0, 0, 0.9);
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container3 h3{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-shadow: 5px 5px rgb(80, 68, 68);
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container3 video {
+    height: 500px;
+    padding-bottom: 50px;
+}
+
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: #111;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.footerlogo{
+    background-color: #111;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.footertop{
+    padding: 70px 30px 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.underfooterlogo{
+    font-size: 10px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.socmed-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.socmed-icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socmed-icons a i{
+    font-size: 1.3em;
+    opacity: 0.9;
+}
+
+.socmed-icons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.fa-facebook{
+    color: rgb(0, 101, 252);
+}
+.fa-instagram{
+    background-color: red;
+    background-size: 100%;
+    background-image: linear-gradient(45deg, orange, rgb(255, 0, 200));
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.fa-google-plus{
+    color: red;
+}
+
+.footerbottom{
+    text-align: center;
+    background-color: #000;
+    padding: 20px;
+}
+
+.ALPHA53 {
+    opacity: 0.7;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+
+
+@media (max-width: 1536px) {
+
+    .container1-vidclip-background {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .background-clip {
+        top: 0px;
+        height: 100vh;
+        width: 100%;
+        
+    }
+
+    .container1-vidclip-background h1 {
+        font-size: 65px;
+    }
+
+    .container2 {
+        padding: 0px 100px 30px;
+       
+    }
+}
+
+@media (max-width: 1280px) {
+    body{
+        overflow-x:hidden;
+    }
+    .container1-vidclip-background {
+        max-width: 1536px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        width: 100%;
+        height: 100vh;
+        overflow-x:hidden;
+    }
+    .background-clip  {
+        top: 0px;
+        height: 100vh;
+        width: 100%;
+        transform: translateX(-3.7%);
+    }
+
+    .container1-vidclip-background h1 {
+        font-size: 55px;
+        max-width: 1536px;
+    }
+
+    .container2 {
+        padding: 0px 50px 50px;
+    }
+
+    .footerbottom{
+        padding: 10px;
+    }
+    .footerbottom p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container1-vidclip-background {
+        width: 100%;
+        height: 75vh;
+    }
+
+    .background-clip {
+        top: 0px;
+        z-index: -1;
+        height: 75vh;
+        width: 100%;
+        transform: translateX(-4.5%);
+        overflow-x: hidden;
+    }
+
+    .container1-vidclip-background h1 {
+        font-size: 45px;
+        max-width: 1536px;
+    }
+
+    .container2 {
+        padding: 0px 50px 50px;
+    }
+    .container2 h2{
+        font-size: 22px;
+    }
+
+    .coach-wendell h3{
+        font-size: 20px;
+    }
+    
+    .coach-wendell p{
+        font-size: 11px;
+    }
+
+    .container3 h3{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container1-vidclip-background {
+        max-width: 1536px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        width: 100%;
+        height: 75vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .background-clip {
+        position: absolute;
+        top: 0px;
+        z-index: -1;
+        height: 80vh;
+        width: 100%;
+        transform: translateX(-0%);
+        overflow-x: hidden;
+    }
+
+    .container1-vidclip-background h1 {
+        font-size: 35px;
+        max-width: 1536px;
+    }
+
+    .container2 {
+        padding-top: 40px;
+    }
+    
+    .container2 hr{
+        width: 110%;
+        text-align: center;
+        transform: translate(-4%);
+    }
+    .container2 h2{
+        font-size: 17px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .coach-wendell img{
+        height: 400px;
+    }
+
+    .coach-wendell h3{
+        font-size: 20px;  
+    }
+    
+    .coach-wendell p{
+        font-size: 10px;
+    }
+
+    
+    .container3 h3{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .container3 video {
+        height: 400px;
+        padding-bottom: 40px;
+    }
+
+    .footerlogo{
+        height: 45px;
+    }
+    
+    .socmed-icons a i{
+        font-size: 1em;
+        opacity: 0.9;
+    }
+    
+    .footerbottom{
+        text-align: center;
+        background-color: #000;
+        padding: 10px;
+    }
+    .footerbottom p{
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width: 640px) {
+    marquee {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .container1-vidclip-background {
+        width: 100%;
+        height: 55vh;
+    }
+
+    .background-clip {
+        top: -10px;
+        height: 60vh;
+        overflow-x: hidden;
+    }
+
+    .container1-vidclip-background h1 {
+        font-size: 27px;
+        
+    }
+
+    .container2 h2{
+        font-size: 14px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        text-shadow: 5px 4px rgb(12, 12, 12);
+    }
+
+    .coach-wendell h3{
+        font-size: 17px;  
+    }
+    
+    .coach-wendell p{
+        font-size: 10px;
+    }
+
+    .container3 h3{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .container3 video {
+        height: 300px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 475px) {
+    header {
+        max-width: 475px;
+        overflow: hidden;
+    }
+    
+    .nav-row2 {
+       
+        padding-right: 10px;
+        padding-left: 10px;
+    }    
+    .header-logo{
+        height: 25px;
+    }
+    marquee {
+        font-size: 9px;
+        margin-left: 1px;
+        margin-right: 1px;
+        font-family: "poppins", sans-serif;
+    }
+
+    .aboutus button {
+        font-size: 10px;
+        padding: 5px 5px 5px;
+    }
+
+    .blogs button{
+        font-size: 10px;
+        padding: 5px 5px 5px;
+    }
+
+    .nav-rightButton button{
+        height: 20px;
+        padding-top: 2px;
+    }
+
+    .container1-vidclip-background {
+        width: 100%;
+        height: 37vh;
+    }
+
+    .background-clip {
+        top: -13px;
+        height: 42vh;
+    }
+
+    .container1-vidclip-background h1 {
+        padding-top: 100px;
+        font-size: 20px;
+    }
+
+    .container2 {
+        padding: 30px;
+    }
+    .container2 h2{
+        font-size: 11px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        text-shadow: 5px 4px rgb(12, 12, 12);
+    }
+
+    .coach-wendell img{
+        height: 300px;
+    }
+    .coach-wendell h3{
+        font-size: 15px;  
+    }
+    .coach-wendell p{
+        font-size: 8.5px;
+    }
+
+    .container3 h3{
+        font-size: 15px;
+    }
+    
+    .container3 video {
+        height: 250px;
+        padding-bottom: 30px;
+    }
+
+}
+

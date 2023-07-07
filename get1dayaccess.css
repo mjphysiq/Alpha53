@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    padding: 0px;
+    margin: 0px;
+}
+nav {
+    padding: 0px;
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top-nav-center {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 100%;
+    background-color: black;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+    
+.top-nav-center li {
+    list-style-type: none;
+    padding: 25px 16px;
+    
+}
+.topnav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 11px;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    transition: color .8s ease-in-out, box-shadow .9s ease-in-out;
+    
+}
+
+.topnav a:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    opacity: 0.6;
+    border: white 1px solid;
+    box-shadow: inset 200px 0 0 0 #ffffff;
+}
+
+.nav-row2 {
+    background-color: /* #424040*/rgb(255, 255, 255);
+    display: flex;
+    padding-bottom: -200px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 3px;
+    padding-top: 60px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.header-logo{
+    height: 35px;
+    transform: translateY(15%);
+}
+
+.nav-rightButton{
+    display: flex;
+}
+
+.aboutus button{
+    background-color: yellow;
+    color: #000;
+    border: 1px solid rgb(206, 197, 197);
+    padding: 8px 14px;
+    font-size: 12px;
+    font-family: "Roboto Condensed", sans-serif;
+    cursor: pointer;
+    transition: color .8s ease-in-out, box-shadow .9s ease-in-out;
+}
+
+.aboutus button:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    opacity: 0.6;
+    border: rgb(255, 255, 255) 1px solid;
+    box-shadow: inset 200px 0 0 0 rgb(10, 68, 122);
+}
+
+.blogs button{
+    background-color: rgb(10, 68, 122);
+    color: white;
+    border: 1px solid rgb(206, 197, 197);
+    padding: 8px 12px;
+    font-size: 12px;
+    font-family: "Roboto Condensed", sans-serif;
+    cursor: pointer;    
+    transition: color .8s ease-in-out, box-shadow .9s ease-in-out;
+}
+
+.blogs button:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    opacity: 0.6;
+    border: white 1px solid;
+    box-shadow: inset 200px 0 0 0 yellow;
+}
+
+
+marquee {
+    font-size: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "poppins", sans-serif;
+}
+
+
+
+.container1-vidclip-background {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(0,0,0,0.6);
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container {
+    width: auto;
+    margin: 0 auto; 
+}
+ 
+  .enter{
+    font-size: 13px;
+}
+
+  p {
+    margin-bottom: 10px;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #3d3c3c;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0);
+  }
+  button {
+    margin-top: 10px;
+    background-color: #a0a0a0;
+    color: #222121de;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .submitbutton{
+    padding: 8px;
+    font-size: 13.5px;
+    border-radius: 15%;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0);
+  }
+  button:hover {
+    background-color: #000;
+    color: white;
+    transition: all 400ms ease-in-out;
+  }
+
+  .registerhere {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+
+    .registerhere h1{
+        font-family: "Roboto Condensed", sans-serif;
+        color: #ffffff;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: 'Montserrat', sans-serif;
+        text-shadow: 5px 3px black;
+        font-size: 22px;
+    }
+
+    .registerhere a{
+        font-size: 14px;
+        color: #60b1fd;
+    }
+
+    .registerhere a:hover{
+        color: #0486ff;
+    }
+    
+    .registerhere h5{
+        margin-bottom: 5px;
+    }
+
+.or {
+  text-align: center;
+  color:#fff;
+  background-color: rgb(26, 26, 26);
+  padding: 8px 0px 8px;
+    }
+
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: #111;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.footerlogo{
+    background-color: #111;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.footertop{
+    padding: 70px 30px 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.underfooterlogo{
+    font-size: 10px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.socmed-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.socmed-icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socmed-icons a i{
+    font-size: 1.3em;
+    opacity: 0.9;
+}
+
+.socmed-icons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.fa-facebook{
+    color: rgb(0, 101, 252);
+}
+.fa-instagram{
+    background-color: red;
+    background-size: 100%;
+    background-image: linear-gradient(45deg, orange, rgb(255, 0, 200));
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.fa-google-plus{
+    color: red;
+}
+
+.footerbottom{
+    text-align: center;
+    background-color: #000;
+    padding: 20px;
+}
+
+.ALPHA53 {
+    opacity: 0.7;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+
+
+@media (max-width: 1536px) {
+    .container1-vidclip-background {
+        height: 70vh;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}
+
+@media (max-width: 1280px) {
+    .container1-vidclip-background {
+        height: 90vh;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .footerbottom{
+    padding: 10px;
+    }
+    .footerbottom p{
+    font-size: 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+
+}
+
+@media (max-width: 768px) {
+    .container1-vidclip-background {
+        height: 90vh;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .footerlogo{
+    height: 45px;
+    }
+
+    .socmed-icons a i{
+    font-size: 1em;
+    opacity: 0.9;
+    }
+
+    .footerbottom{
+    text-align: center;
+    background-color: #000;
+    padding: 10px;
+    }
+    .footerbottom p{
+    font-size: 10px;
+    }
+
+}
+
+@media (max-width: 640px) {
+    marquee {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .footerbottom{
+        text-align: center;
+        background-color: #000;
+        padding: 10px 0px 1px; 
+    }
+}
+
+@media (max-width: 475px) {
+.container1-vidclip-background {
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+header {
+    max-width: 475px;
+    overflow: hidden;
+}
+
+.nav-row2 {
+   
+    padding-right: 10px;
+    padding-left: 10px;
+}    
+.header-logo{
+    height: 25px;
+}
+marquee {
+    font-size: 9px;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-family: "poppins", sans-serif;
+}
+.aboutus button {
+    font-size: 10px;
+    padding: 5px 5px 5px;
+}
+.blogs button{
+    font-size: 10px;
+    padding: 5px 5px 5px;
+}
+.nav-rightButton button{
+    height: 20px;
+    padding-top: 2px;
+}
+
+.footertop{
+    padding: 20px 30px 20px;
+    width: 100%;
+    text-align: center;
+}
+
+}

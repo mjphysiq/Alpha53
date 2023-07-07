@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="joinnow.css">
+    <title>Alpha53</title>
+
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="top-nav-center">
+                <!--*nav menu items at center-->
+               <li class="topnav joinnow">
+                    <a href="joinnow.html">JOIN NOW!</a>
+                </li>
+                <li class="topnav get1dayaccess">
+                    <a href="get1dayaccess.html">GET 1 DAY ACCESS?</a>
+                </li>
+                <li class="topnav locateus">
+                    <a href="https://www.google.com/maps/place/Alpha+Fifty+Three+Fitness,+153+San+Francisco,+Mandaluyong,+1550+Metro+Manila/@14.5745025,121.0285046,17z/data=!4m6!3m5!1s0x3397c9b2f74b6a37:0x5c07645d0bf28b7e!8m2!3d14.5744973!4d121.0310795!16s%2Fg%2F11hcfk3lbt" target="_blank">LOCATE US</a>
+                </li>
+            </ul>
+
+            <div class="nav-row2">
+                <img class="header-logo" src="images/newlogo1.jpg" alt="A53Logo">
+                <marquee scrolldelay="100" direction="right" behavior="alternate">Get 30% discount for students!</marquee>
+                <div class="nav-rightButton"></div>
+                    <a class="nav-rightButtons aboutus" href="aboutUs.html"><button>AboutUs</button></a>
+                    <a class="nav-rightButtons blogs" href="blogs.html"><button>Blogs</button></a>
+            </div>
+        </nav>
+    <header>
+
+    <main>
+        <div class="container1-vidclip-background">
+            
+
+    <div class="container g-5 registerhere">
+        <h1>JOIN US<br/><span id="joinUs-line2" style="font-family: Roboto Condensed, sans-serif ; font-size: 18px ;">Be an Alpha member</span></h1>
+        <form action="/register.php" method="post">
+            <div class="row">
+                <div class="col-sm-4 form-group p-1">
+                    <label for="first_name">First Name<span style="color: red;">*</span></label>
+                    <input type="text" class="form-control" id="first_name" name="first_name" required>
+                </div>
+
+                <div class="col-sm-5 form-group p-1">
+                    <label for="last_name">Last Name<span style="color: red;">*</span></label>
+                    <input type="text" class="form-control" id="last_name" name="last_name" required>
+                </div>
+
+                <div class="col-sm-2 form-group p-1">
+                    <label for="age">Age<span style="color: red;">*</span></label>
+                    <input type="number" class="form-control" id="age" name="age" min="18" max="120" required>
+                        <div class="invalid-feedback">
+                            You must be 18 years old or above to register.
+                        </div>
+                </div>
+
+            <div class="row">
+                <div class="col-sm-4 form-group p-1">
+                    <label for="gender">Gender<span style="color: red;">*</span></label>
+                        <select class="form-control" id="gender" name="gender">
+                        <option value="select" selected>Please select</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Rather not say</option>
+                        </select>
+                </div>
+                <div class="col-sm-5 form-group p-1">
+                    <label for="contactnumber">Contact number<span style="color: red;">*</span></label>
+                    <input type="tel" class="form-control" id="contactnumber" name="contactnumber" required>
+                </div>
+            </div>
+            </div>
+
+            <div class="row">
+
+          <div class="col-sm-6 form-group p-1">
+            <label for="address">City Address<span style="color: red;">*</span></label>
+            <input type="text" class="form-control" id="address" name="address" required>
+                <div class="invalid-feedback">
+                    Please provide a valid city.
+                </div>
+          </div>
+          
+          <div class="col-sm-5 form-group p-1">
+            <label for="email_address"><span style="color: red;">*</span>Email Address</label>
+            <input type="email" class="form-control" id="email_address" name="email_address">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+            </div>
+          </div>
+        </div>
+
+        <div class="row pt-3">
+          <div class="form-check p-3">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              <h4>I agree to terms and conditions<span style="color: red;">*</span></h4>
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div>
+          <button type="submit" class="btn btn-primary">Register</button></div>
+        </form>
+      </div>
+
+    </main>
+
+    <footer>
+        <div class="footertop">
+            <img class="footerlogo" src="images/logo2bgremoved.png" alt="A53Logo"/>
+                <p class="underfooterlogo">Since 2014</p>
+            <div class="socmed-icons">
+                <a href="https://www.facebook.com/Alpha53Fitness"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/itzme_wendell29/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="mailto:alpha53gym@gmail.com?subject = Feedback&body = Message"><i class="fa-brands fa-google-plus"></i></a>
+            </div>
+        </div>    
+        <div class="footerbottom">
+            <p>&copy;<span class="ALPHA53">ALPHA53</span>2023. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
