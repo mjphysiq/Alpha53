@@ -316,7 +316,7 @@ footer {
 
 @media (max-width: 1536px) {
     .container1-vidclip-background {
-        height: 70vh;
+        height: 65vh;
         background-color: rgba(0, 0, 0, 0.8);
     }
 }
@@ -342,7 +342,7 @@ footer {
 
 @media (max-width: 768px) {
     .container1-vidclip-background {
-        height: 90vh;
+        height: 85vh;
         background-color: rgba(0, 0, 0, 0.8);
     }
     
@@ -422,4 +422,11 @@ marquee {
     text-align: center;
 }
 
+}
+
+@media (max-width: 350px) {
+    .container1-vidclip-background {
+        height: 89vh;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
 }

@@ -424,3 +424,48 @@ marquee {
 
 
 }
+
+@media (max-width: 350px) {
+    .container1-vidclip-background {
+        height: 117vh;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    header {
+        max-width: 475px;
+        overflow: hidden;
+    }
+    
+    .nav-row2 {
+       
+        padding-right: 10px;
+        padding-left: 10px;
+    }    
+    .header-logo{
+        height: 25px;
+    }
+    marquee {
+        font-size: 9px;
+        margin-left: 1px;
+        margin-right: 1px;
+        font-family: "poppins", sans-serif;
+    }
+    
+    .aboutus button {
+        font-size: 10px;
+        padding: 5px 5px 5px;
+    }
+    
+    .blogs button{
+        font-size: 10px;
+        padding: 5px 5px 5px;
+    }
+    
+    .nav-rightButton button{
+        height: 20px;
+        padding-top: 2px;
+    }
+    
+    
+    }
+    
