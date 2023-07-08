@@ -99,7 +99,7 @@ nav {
 }
 
 .aboutus button{
-    background-color: yellow;
+    background-color: rgb(255, 141, 35);
     color: #000;
     border: 1px solid rgb(206, 197, 197);
     padding: 8px 14px;
@@ -133,7 +133,7 @@ nav {
     color: rgb(0, 0, 0);
     opacity: 0.6;
     border: white 1px solid;
-    box-shadow: inset 200px 0 0 0 yellow;
+    box-shadow: inset 200px 0 0 0 rgb(255, 141, 35);
 }
 
 
@@ -205,7 +205,7 @@ main{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: #a7a3a3;
-    text-shadow: 5px 3px rgb(73, 11, 11);
+    text-shadow: 4px 2px rgb(73, 11, 11);
     padding-bottom: 20px;
 }
 
@@ -232,7 +232,7 @@ main{
     color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    text-shadow: 5px 5px rgb(46, 45, 45);
+    text-shadow: 4px 3px rgb(46, 45, 45);
 }
 
 .rates-list {
@@ -350,6 +350,13 @@ footer {
 }
 
 @media (max-width: 768px) {
+    marquee {
+        font-size: 9px;
+        margin-left: 1px;
+        margin-right: 1px;
+        font-family: "poppins", sans-serif;
+    }
+    
     .alphaFacilty video{
         height: 300px;
         box-shadow: 0px 0px 10px rgba(0,0,0.6);
@@ -375,6 +382,13 @@ footer {
 }
 
 @media (max-width: 640px) {
+    marquee {
+        font-size: 9px;
+        margin-left: 1px;
+        margin-right: 1px;
+        font-family: "poppins", sans-serif;
+    }
+    
     .alphaFacilty video{
         height: 200px;
     }
@@ -425,3 +439,50 @@ marquee {
 
 }
 
+@media (max-width: 375px) {
+    header {
+        max-width: 375px;
+        overflow: hidden;
+    }
+    
+    .nav-row2 {
+       
+        padding-right: 10px;
+        padding-left: 10px;
+    }    
+    .header-logo{
+        height: 25px;
+    }
+    marquee {
+        font-size: 9px;
+        margin-left: 1px;
+        margin-right: 1px;
+        font-family: "poppins", sans-serif;
+    }
+    
+    .aboutus button {
+        font-size: 10px;
+        padding: 5px 5px 5px;
+    }
+    
+    .blogs button{
+        font-size: 10px;
+        padding: 5px 5px 5px;
+    }
+    
+    .nav-rightButton button{
+        height: 20px;
+        padding-top: 2px;
+    }
+    .alphaFacilty video{
+        height: 160px;
+        transform: translateX(-6%);
+    }
+    }
+
+    @media (max-width: 380px) {
+        .alphaFacilty video{
+            height: 160px;
+            transform: translateX(-5%);
+        }
+    }

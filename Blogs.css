@@ -99,7 +99,7 @@ nav {
 }
 
 .aboutus button{
-    background-color: yellow;
+    background-color: rgb(255, 141, 35);
     color: #000;
     border: 1px solid rgb(206, 197, 197);
     padding: 8px 14px;
@@ -133,7 +133,7 @@ nav {
     color: rgb(0, 0, 0);
     opacity: 0.6;
     border: white 1px solid;
-    box-shadow: inset 200px 0 0 0 yellow;
+    box-shadow: inset 200px 0 0 0 rgb(255, 141, 35);
 }
 
 
@@ -305,6 +305,11 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .main-content{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
     .footerlogo{
     height: 45px;
     }
@@ -326,6 +331,14 @@ footer {
 }
 
 @media (max-width: 640px) {
+    .titleText {
+        text-align: center;
+    }
+    .main-content{
+        padding-left: 50px;
+        padding-right: 50px;
+       
+    }
     #titleText h1{
         padding-left: 50px;
         padding-right: 50px;
@@ -348,6 +361,10 @@ footer {
 }
 
 @media (max-width: 475px) {
+.main-content{
+    padding-left: 0px;
+    padding-right: 0px; 
+}
 header {
     max-width: 475px;
     overflow: hidden;
