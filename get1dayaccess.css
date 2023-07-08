@@ -79,7 +79,7 @@ nav {
     padding-right: 30px;
     padding-left: 30px;
     padding-bottom: 3px;
-    padding-top: 60px;
+    padding-top: 65px;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 12px;
     box-sizing: border-box;
@@ -87,7 +87,6 @@ nav {
 
 .header-logo{
     height: 35px;
-    transform: translateY(15%);
 }
 
 .nav-rightButton{
